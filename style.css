@@ -3,7 +3,9 @@ body {
   font-family: -apple-system, San Francisco, Roboto, Segoe UI, Helvetica Neue, Lucida Grande, sans-serif;
   letter-spacing: 0.2px;
   background-color: rgb(10, 10, 10);
-  color: rgb(231, 231, 231);
+  /* background-color: rgb(32, 32, 32); */
+  /* background-color: rgb(255, 255, 255); */
+  color: rgb(145, 145, 145);
 }
 
 h1 {
@@ -91,10 +93,16 @@ footer {
   border-style: solid;
   border-width: 1px;
   border-color: rgb(5, 5, 5);
-  transition: all .1s ease-in-out;
+  transform: scale(0.96);
+  transition: all .3s ease-in-out;
 }
 
 .avatar:hover {
   filter: none;
-  transform: scale(1.05);
+  transform: scale(1);
+  /* box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22); */
+}
+
+.design-title {
+  color: rgb(255, 255, 255);
 }
