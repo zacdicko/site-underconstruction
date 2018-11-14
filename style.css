@@ -27,7 +27,7 @@ p {
 }
 
 a {
-  color: rgb(23, 224, 16);
+  color: #bbff00;
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@ a:hover {
 }
 
 .highlight {
-  color: rgb(23, 224, 16);
+  color: #bbff00;
 }
 
 .about .btn {
@@ -79,7 +79,7 @@ footer {
 .sub-btn:hover {
   background-color: rgb(5, 5, 5);
   border-color: rgb(5, 5, 5);
-  color: rgb(23, 224, 16);
+  color: #bbff00;
 }
 
 .avatar {
