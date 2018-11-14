@@ -2,6 +2,8 @@ body {
   margin-top: 10%;
   font-family: -apple-system, San Francisco, Roboto, Segoe UI, Helvetica Neue, Lucida Grande, sans-serif;
   letter-spacing: 0.2px;
+  background-color: rgb(10, 10, 10);
+  color: rgb(231, 231, 231);
 }
 
 h1 {
@@ -17,23 +19,26 @@ h2 {
   padding-bottom: 18px;
 }
 
-p {
+/* p {
   color: rgba(0, 0, 0, 0.6);
+} */
+p {
+  color: rgb(231, 231, 231);
 }
 
 a {
-  color: rgba(189, 16, 224, 1);
+  color: rgb(23, 224, 16);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(119, 13, 141, 1);
+  color: rgb(255, 255, 255);
   text-decoration: underline;
   font-weight: 400;
 }
 
 .highlight {
-  color: rgba(189, 16, 224, 1);
+  color: rgb(23, 224, 16);
 }
 
 .about .btn {
@@ -46,7 +51,7 @@ a:hover {
   top: 10px;
   right: 12px;
   display: block;
-  color: rgba(189, 189, 189, 1)
+  color: rgba(189, 189, 189, 1);
 }
 
 footer {
@@ -65,3 +70,15 @@ footer {
   display: inline-block;
   padding-left: 16px; 
 }
+
+.sub-btn {
+  background-color: rgb(26, 26, 26);
+  border-color: rgb(5, 5, 5);
+}
+
+.sub-btn:hover {
+  background-color: rgb(5, 5, 5);
+  border-color: rgb(5, 5, 5);
+  color: rgb(23, 224, 16);
+}
+
